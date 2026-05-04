@@ -93,21 +93,3 @@ Discard Tuning produced the highest refusal rate on HaluEval, suggesting that re
 The hallucination-rate results from Prometheus-2 were near zero for most models. This should not be interpreted as perfect model performance. It mainly reflects the limitation of using Prometheus-2 as a judge with a lenient hallucination threshold.
 
 The most reliable results in this project are the **ROUGE scores** and the **refusal-rate analysis**.
-
-## Repository Structure
-
-```text
-.
-├── notebooks/
-│   ├── final_nlp.ipynb
-│   └── updated_final_nlp.ipynb
-├── results/
-│   ├── rouge_results.csv
-│   ├── hallucination_results.csv
-│   └── refusal_rate_results.csv
-├── reports/
-│   ├── assignment_2_report.pdf
-│   ├── assignment_3_report.pdf
-│   └── final_report.pdf
-├── README.md
-└── requirements.txt
